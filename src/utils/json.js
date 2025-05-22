@@ -1,0 +1,40 @@
+const elements ={
+    name:"root",
+    isFolder:true,
+    items:[
+        {
+        name:"public",
+        isFolder:true,
+        items:[
+            {
+                name:"public_nested_file",
+                isFolder:false
+            },
+            {
+                name:"public_nested_file_one",
+                isFolder:false
+            }
+        ]
+    },
+    {
+        name:"src",
+        isFolder:true,
+        items:[
+            {
+                name:"main.js",
+                isFolder:false
+            },
+            {
+                name:"app.js",
+                isFolder:false
+            }
+        ]
+    },
+    {
+        name:"json",
+        isFolder:false
+    }
+]
+}
+
+export default elements;
