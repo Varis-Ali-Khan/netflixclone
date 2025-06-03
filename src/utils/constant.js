@@ -16,3 +16,5 @@ export const API_MOVIES_VIDEO = {
   }
 };
   
+
+export const IMG_CDN_UEL ="https://image.tmdb.org/t/p/w500/";
